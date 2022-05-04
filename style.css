@@ -1,0 +1,31 @@
+body{
+    background-image: url(images/canva_bg_remove\ \(32\)\ 1.png);
+}
+.navbar{
+    background-color: #E5E5E5;
+    margin-left: auto;
+}
+#main{
+    color: rgba(255, 255, 255, 1);
+    background-image: url(images/canva_bg_remove\ \(32\)\ 1.png);
+    background: rgba(0, 0, 0, 0.3);
+}
+#main .text-area{
+    display: flex;
+}
+.button .btn{
+    background-color: #F96300;
+    color: white;
+    box-sizing: none;
+    font-size: 22px;
+}
+.icons{
+    flex-direction: column;
+    
+}
+.icons i{
+    
+    color: rgba(159, 159, 159, 1);
+    margin-left: 52.33px;
+    margin-bottom: 39.35px;
+}
