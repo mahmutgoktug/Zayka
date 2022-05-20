@@ -6,35 +6,91 @@
 #main{
     color: rgba(255, 255, 255, 1);
     background: rgba(0, 0, 0, 0.3);
+    height: 600px; /*mediauqery ile küçült*/
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    position: relative;
 }
 #main .container{
     display: flex;
+    justify-content: space-around;
 }
 .button .btn{
     background-color: #F96300;
     color: white;
     box-sizing: none;
     font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     height: 65px;
     border-radius: 0%;
+    display: flex;
+    align-items: center;
+}
+.button .btn img{
+    margin-left: 12px;
 }
 .icons{
     flex-direction: column;
+    position: absolute;
+    top: 37%;
+    left: 30px; 
 }
 .icons i{
     color: rgba(159, 159, 159, 1);
     padding: 18px;
+    font-size: 20px;
 }
 .text{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .text h2{
+    word-spacing: 15px;
     font-size: 38px;
 }
 .text p{
     font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
 }
-.container{
-    margin-top: 235px;
+.menu h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
 }
+.menu p{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: 
+    rgba(159, 159, 159, 1);
+}
+
+@media only screen and (max-width: 700px) {
+    #main{
+        height: 400px;
+    }
+    .icons{
+        flex-direction: row; 
+        display: flex;
+        left: 30%;
+        top: 0;
+    }
+    .icons i{
+        font-size: 25px;
+    }
+    .text h2{
+        font-size: 20px;
+        word-spacing: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .text p{
+        display: flex;
+        text-align: center;
+    }
+    .button .btn{
+        height: 40px;
+        font-size: 16px;
+    }
+  }
