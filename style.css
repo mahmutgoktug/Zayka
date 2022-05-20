@@ -64,7 +64,46 @@
     font-size: 16px;
     color: 
     rgba(159, 159, 159, 1);
+    padding-bottom: 35px;
 }
+.colon1 img{
+    height: 450px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.colon2 img{
+    height: 450px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.colon3 img{
+    height: 450px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.foods h2{
+    font-size: 32px;
+    color: 
+    rgba(255, 255, 255, 1);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    text-align: center;
+}
+.colon3 .foods h2{
+    color: 
+    rgba(27, 26, 26, 0.726);
+}
+.colon3 .foods p{
+    color: 
+    rgba(27, 26, 26, 0.726);    
+}
+.foods p{
+    font-size: 20px;
+    color: 
+    rgba(255, 255, 255, 1);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    text-align: center;
+}
+
+
 
 @media only screen and (max-width: 700px) {
     #main{
