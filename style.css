@@ -1,13 +1,10 @@
-body{
-    background-image: url(images/canva_bg_remove\ \(32\)\ 1.png);
-}
 .navbar{
     background-color: #E5E5E5;
     margin-left: auto;
+    margin-right: auto;
 }
 #main{
     color: rgba(255, 255, 255, 1);
-    background-image: url(images/canva_bg_remove\ \(32\)\ 1.png);
     background: rgba(0, 0, 0, 0.3);
 }
 #main .container{
@@ -18,12 +15,26 @@ body{
     color: white;
     box-sizing: none;
     font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 65px;
+    border-radius: 0%;
 }
 .icons{
     flex-direction: column;
 }
 .icons i{
     color: rgba(159, 159, 159, 1);
-    margin-left: 52.33px;
-    margin-bottom: 39.35px;
+    padding: 18px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h2{
+    font-size: 38px;
+}
+.text p{
+    font-size: 15px;
+}
+.container{
+    margin-top: 235px;
 }
