@@ -102,12 +102,87 @@
     display: flex;
     text-align: center;
 }
-
+#fullmenu{
+    padding-top: 500px;
+}
+.comment1 img{
+    margin-top: 60px;
+    width: 500px;
+    height: 336px;
+}
+.comment1 h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.comment1 p{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.comment2 img{
+    margin-top: 60px;
+    width: 566px;
+    height: 340px;
+}
+.comment2 h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.comment2 p{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-book{
+    width: 170px;
+    background-color: #F96300;
+    color: white;
+    box-sizing: none;
+    font-size: 20px;
+    height: 55px;
+    border-radius: 0%;
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 190px;
+}
+.btn-book img{
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    width: 8px;
+    margin-bottom: 60px;
+}
+.baslik{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #545554;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
 
 
 @media only screen and (max-width: 700px) {
     #main{
         height: 400px;
+    }
+    .menu p{
+        display: flex;
+        text-align: center;
+        margin-right: 100px;
+        margin-left: 100px;
     }
     .icons{
         flex-direction: row; 
@@ -132,4 +207,30 @@
         height: 40px;
         font-size: 16px;
     }
+    .comment{
+        padding-left: 0;
+    }
+    .comment .btn-book img{
+        width: 8px;
+    }
+    .comment1 .boyut{
+        width: 450px;
+        margin-left: 25px;
+    }
+    .comment2 img{
+        width: 500px;
+    }
+    .comment2{
+        margin-right: 200px;
+    }
+    .comment2 .btn .btn-book{
+        margin-left: 160px;
+    }
+    .comment2 p{
+        margin-right: 0;
+        margin-left: 95px;
+    }
+    .comment2 h2{
+        margin-left: 60px;
+    }  
   }
