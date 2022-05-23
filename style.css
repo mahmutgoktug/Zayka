@@ -250,11 +250,62 @@
     margin-right: 400px;
     margin-top: 28px;
 }
-.button .page4-button{
+.page4-button{
+    background-color: #ffffff !important;
     border: #000000;
+    color: #000000 !important;
     display: flex;
     margin-top: 40px;
-    margin-left: 400px !important;
+    margin-left: 300px !important;
+}
+.onlineorder{
+    color: #000000 !important;
+    background: #ffffff !important;
+    border: 1px solid #000000;
+    margin-bottom: 60px;
+}
+.onlineorder img{
+    color: #000000 !important;
+}
+.picture{
+    margin-bottom: 100px;
+}
+.picture .btn{
+    color: #F96300 !important;
+    font-size: 20px !important;
+}
+.textarea{
+    padding-top: 180px;
+}
+.textarea h1{
+    word-spacing: 25px;
+    font-size: 72px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.textarea p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.viewmenu{
+    border: solid #ffffff;
+    margin-left: 670px;
+    margin-top: 40px;
+}
+#tours{
+    background: #F7F7F7;
+}
+#tours h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 100px;
+}
+#tours img{
+    margin-bottom: 20px;
 }
 
 
@@ -320,6 +371,7 @@
     .chef img{
         padding-right: 100px;
         margin-top: 0;
+        margin-bottom: 50px;
     }
     .borderbox{
         border: 1px solid #FFEAC9;
@@ -348,5 +400,11 @@
         justify-content: center;
         background-color: #ffffff !important;
         color: #000000 !important;
+    }
+    .leftside h5{
+        margin-left: -225px;
+    }
+    .leftside p{
+        margin-left: -225px;
     }
   }
