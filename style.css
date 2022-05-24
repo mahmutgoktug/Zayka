@@ -350,6 +350,17 @@
     justify-content: center;
     margin-top: 120px;
 }
+#awards h1{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+#awards img{
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+}
 
 
 @media only screen and (max-width: 700px) {
@@ -406,10 +417,13 @@
     }
     .comment2 p{
         margin-right: 0;
-        margin-left: 95px;
+        margin-left: 100px;
+    }
+    .btn-book{
+        margin-left: 160px;
     }
     .comment2 h2{
-        margin-left: 60px;
+        margin-left: 100px;
     }  
     .chef img{
         padding-right: 100px;
@@ -459,5 +473,8 @@
     #tours img{
         width: 89%;
         margin-left:40px !important;
+    }
+    #awards img{
+        margin-left: 30px;
     }
   }
